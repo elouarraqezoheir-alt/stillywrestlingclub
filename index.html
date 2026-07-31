@@ -282,8 +282,54 @@
       .product-image img{height:280px}
       .footer-inner{flex-direction:column;align-items:flex-start}
       .brand-text strong{font-size:.9rem}
+    }}
+
+.values-list{
+    max-width:900px;
+    margin:60px auto;
+}
+
+.value-item{
+    display:flex;
+    align-items:flex-start;
+    gap:24px;
+    padding:22px 0;
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+.value-number{
+    font-family:'Anton',sans-serif;
+    font-size:3rem;
+    color:#f26a21;
+    min-width:70px;
+    line-height:1;
+}
+
+.value-content h3{
+    margin:0 0 10px;
+    color:#fff;
+    font-family:'Anton',sans-serif;
+    letter-spacing:1px;
+}
+
+.value-content p{
+    margin:0;
+    color:#bfbfbf;
+    line-height:1.8;
+}
+
+@media(max-width:768px){
+    .value-item{
+        flex-direction:column;
+        gap:10px;
     }
-  </style>
+
+    .value-number{
+        font-size:2.5rem;
+    }
+}
+
+</style>  </style>
 </head>
 <body>
 
@@ -372,39 +418,48 @@
       <div class="eyebrow reveal">Our Standard</div>
       <h2 class="section-title reveal">The Values We <span class="orange">Live</span></h2>
 
-      <div class="values-grid">
+<div class="values-list">
 
-<div class="values-grid">
+  <div class="value-item">
+    <div class="value-number">01</div>
+    <div class="value-content">
+      <h3>ATTITUDE</h3>
+      <p>Choose a positive attitude. Bring energy, be coachable, and make those around you better.</p>
+    </div>
+  </div>
 
-  <article class="value-card">
-    <div class="number">01</div>
-    <h3>Attitude</h3>
-    <p>Choose a positive attitude. Bring energy, be coachable, and make those around you better.</p>
-  </article>
+  <div class="value-item">
+    <div class="value-number">02</div>
+    <div class="value-content">
+      <h3>ASK QUESTIONS</h3>
+      <p>Be curious. Ask questions, seek understanding, and never stop learning.</p>
+    </div>
+  </div>
 
-  <article class="value-card">
-    <div class="number">02</div>
-    <h3>Ask Questions</h3>
-    <p>Be curious. Ask questions, seek understanding, and never stop learning.</p>
-  </article>
+  <div class="value-item">
+    <div class="value-number">03</div>
+    <div class="value-content">
+      <h3>HAVE FUN</h3>
+      <p>Enjoy the process. Work hard, compete hard, and have fun doing it.</p>
+    </div>
+  </div>
 
-  <article class="value-card">
-    <div class="number">03</div>
-    <h3>Have Fun</h3>
-    <p>Enjoy the process. Work hard, compete hard, and have fun doing it.</p>
-  </article>
+  <div class="value-item">
+    <div class="value-number">04</div>
+    <div class="value-content">
+      <h3>GRATITUDE</h3>
+      <p>Be thankful for every opportunity, every teammate, every coach, and every lesson.</p>
+    </div>
+  </div>
 
-  <article class="value-card">
-    <div class="number">04</div>
-    <h3>Gratitude</h3>
-    <p>Be thankful for every opportunity, every teammate, every coach, and every lesson.</p>
-  </article>
+  <div class="value-item">
+    <div class="value-number">05</div>
+    <div class="value-content">
+      <h3>WORK HARD</h3>
+      <p>Success is earned through consistent effort. Outwork yesterday and give your best every day.</p>
+    </div>
+  </div>
 
-  <article class="value-card">
-    <div class="number">05</div>
-    <h3>Work Hard</h3>
-    <p>Success is earned through consistent effort. Outwork yesterday and give your best every day.</p>
-  </article>
 
 </div>        <p>
           Training is designed for long-term development—technical growth, competitive mindset,
